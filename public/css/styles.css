@@ -1,0 +1,81 @@
+html
+{
+    background-color: rgb(255, 221, 84);
+    padding: 10%;
+}
+
+body {
+    color: #333333;
+    
+    border-radius: 15%;
+    background-color: papayawhip;
+    font-family: arial;
+    max-width: 650px;
+    
+    padding: 5%;
+
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    
+    
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 45%;
+    float: right;
+    
+}
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+#message-1 
+{
+    background-color: burlywood;
+    border: 5px solid black;
+    border-radius: 5%;
+    padding: 2%;
+}
+#message-2
+ {
+     background-color: burlywood;
+    border: 5px solid black;
+    border-radius: 5%;
+    padding: 2%;
+}
